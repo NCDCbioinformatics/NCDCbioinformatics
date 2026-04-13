@@ -18,6 +18,7 @@ Current public work includes:
 - HGVS normalization and HGVS-to-MAF conversion workflows
 - Gene and fusion nomenclature standardization utilities
 - Publication-facing framework documentation for CURE-NGS
+- Related clinico-omics portal and synthetic-data showcase projects
 
 ## Featured Project
 
@@ -35,12 +36,26 @@ Current public work includes:
 | [gene_fusion_normalizer](https://github.com/NCDCbioinformatics/gene_fusion_normalizer) | Fusion gene normalization utility |
 | [hgvs_normerlizer](https://github.com/NCDCbioinformatics/hgvs_normerlizer) | HGVS nomenclature normalization utility |
 
+## Related Platform Portfolio
+
+The broader NCDC software portfolio also includes public K-CORE portal projects covering full-stack web services, visualization, and synthetic demonstration datasets.
+
+| Project | Area | Summary |
+| --- | --- | --- |
+| [K-CORE profile](https://github.com/K-CORE-NCDC) | Portal overview | Public K-CORE analytic portal profile maintained separately from this account |
+| [ncc-backend](https://github.com/K-CORE-NCDC/ncc-backend) | Backend platform | Django and Django REST backend for the K-CORE clinico-omics portal with PostgreSQL and SQLite workflows |
+| [ncc-frontend](https://github.com/K-CORE-NCDC/ncc-frontend) | Frontend visualization | React-based portal UI for clinico-omics exploration and precision oncology visual analytics |
+| [synthetic-data-set](https://github.com/K-CORE-NCDC/synthetic-data-set) | Demonstration data | Synthetic omics-oriented dataset package used for portal validation and demonstration |
+
+These linked K-CORE repositories remain in their original source profile and are referenced here to show adjacent NCDC platform work without modifying the original account.
+
 ## Focus Areas
 
 - Harmonization of heterogeneous clinical panel NGS outputs
 - Provenance-aware transformation of VCF, HGVS, and report-derived inputs
 - Research-ready mutation annotation workflows
 - Terminology normalization for cancer genomics data integration
+- Full-stack clinico-omics platform engineering and data visualization
 
 ## Contact
 
