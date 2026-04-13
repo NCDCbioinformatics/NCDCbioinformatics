@@ -10,25 +10,20 @@
 
 ## About
 
-`NCDCbioinformatics` is the public bioinformatics profile of the National Cancer Data Center, focused on reproducible research software for precision oncology and multi-institutional panel NGS harmonization.
+`NCDCbioinformatics` is the public bioinformatics software profile of the National Cancer Data Center. The account is organized around two major development tracks:
 
-Current public work includes:
+- `CURE-NGS`: a panel-based genomic data construction and harmonization framework for heterogeneous clinical sequencing outputs
+- `K-CORE`: analysis portal development for clinico-omics integration, visualization, and research-facing data exploration
 
-- VCF harmonization and MAF-centered processing pipelines
-- HGVS normalization and HGVS-to-MAF conversion workflows
-- Gene and fusion nomenclature standardization utilities
-- Publication-facing framework documentation for CURE-NGS
-- Related clinico-omics portal and synthetic-data showcase projects
+## Main Projects
 
-## Featured Project
+### CURE-NGS
 
-> The main publication-facing entry point is the [CURE-NGS panel harmonization framework](https://github.com/NCDCbioinformatics/cure-ngs-panel-harmonization-framework), which consolidates manuscript metadata, declarations, software inventory, and links to component repositories.
-
-## Public Repositories
+`CURE-NGS` is the publication-facing framework for panel-based genomic data harmonization, transformation, and reproducible mutation annotation workflows.
 
 | Repository | Purpose |
 | --- | --- |
-| [cure-ngs-panel-harmonization-framework](https://github.com/NCDCbioinformatics/cure-ngs-panel-harmonization-framework) | Umbrella repository for the manuscript and editorial metadata |
+| [cure-ngs-panel-harmonization-framework](https://github.com/NCDCbioinformatics/cure-ngs-panel-harmonization-framework) | Umbrella repository for the manuscript, editorial declarations, and framework metadata |
 | [panel_VCF_vcf2maf_pipeline](https://github.com/NCDCbioinformatics/panel_VCF_vcf2maf_pipeline) | Multi-panel VCF preprocessing, build harmonization, and VCF-to-MAF conversion |
 | [HGVS_to_minimal_MAF_pipeline](https://github.com/NCDCbioinformatics/HGVS_to_minimal_MAF_pipeline) | HGVS-driven minimal MAF generation pipeline |
 | [minimal_MAF_to_annotated_MAF_pipeline](https://github.com/NCDCbioinformatics/minimal_MAF_to_annotated_MAF_pipeline) | Minimal-MAF-to-annotated-MAF conversion pipeline |
@@ -36,9 +31,9 @@ Current public work includes:
 | [gene_fusion_normalizer](https://github.com/NCDCbioinformatics/gene_fusion_normalizer) | Fusion gene normalization utility |
 | [hgvs_normerlizer](https://github.com/NCDCbioinformatics/hgvs_normerlizer) | HGVS nomenclature normalization utility |
 
-## K-CORE Portal Repositories
+### K-CORE Analysis Portal Development
 
-The broader NCDC public software ecosystem also includes separately maintained K-CORE portal repositories covering full-stack web services, visualization, and synthetic demonstration datasets.
+`K-CORE` represents the clinico-omics analysis portal development track, including backend services, frontend visualization, and synthetic demonstration resources. These repositories remain in their original source profile and are referenced here without modifying the original `K-CORE-NCDC` account.
 
 | Project | Area | Summary |
 | --- | --- | --- |
@@ -47,15 +42,13 @@ The broader NCDC public software ecosystem also includes separately maintained K
 | [ncc-frontend](https://github.com/K-CORE-NCDC/ncc-frontend) | Frontend visualization | React-based portal UI for clinico-omics exploration and precision oncology visual analytics |
 | [synthetic-data-set](https://github.com/K-CORE-NCDC/synthetic-data-set) | Demonstration data | Synthetic omics-oriented dataset package used for portal validation and demonstration |
 
-These K-CORE repositories remain in their original source profile and are referenced here without modifying the original `K-CORE-NCDC` account.
-
 ## Focus Areas
 
-- Harmonization of heterogeneous clinical panel NGS outputs
+- Panel-based genomic data construction and harmonization
 - Provenance-aware transformation of VCF, HGVS, and report-derived inputs
 - Research-ready mutation annotation workflows
+- Clinico-omics portal engineering and interactive data visualization
 - Terminology normalization for cancer genomics data integration
-- Full-stack clinico-omics platform engineering and data visualization
 
 ## Contact
 
