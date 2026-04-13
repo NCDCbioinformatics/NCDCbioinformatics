@@ -33,14 +33,14 @@
 
 ### K-CORE Analysis Portal Development
 
-`K-CORE` represents the clinico-omics analysis portal development track, including backend services, frontend visualization, and synthetic demonstration resources. These repositories remain in their original source profile and are referenced here without modifying the original `K-CORE-NCDC` account.
+`K-CORE` represents the clinico-omics analysis portal development track, including backend services, frontend visualization, and synthetic demonstration resources. The repositories below are mirrored under this profile for unified public presentation while the original `K-CORE-NCDC` organization remains unchanged.
 
-| Project | Area | Summary |
+| Repository | Area | Summary |
 | --- | --- | --- |
-| [K-CORE profile](https://github.com/K-CORE-NCDC) | Portal overview | Public K-CORE analytic portal profile maintained separately from this account |
-| [ncc-backend](https://github.com/K-CORE-NCDC/ncc-backend) | Backend platform | Django and Django REST backend for the K-CORE clinico-omics portal with PostgreSQL and SQLite workflows |
-| [ncc-frontend](https://github.com/K-CORE-NCDC/ncc-frontend) | Frontend visualization | React-based portal UI for clinico-omics exploration and precision oncology visual analytics |
-| [synthetic-data-set](https://github.com/K-CORE-NCDC/synthetic-data-set) | Demonstration data | Synthetic omics-oriented dataset package used for portal validation and demonstration |
+| [K-CORE-NCDC](https://github.com/NCDCbioinformatics/K-CORE-NCDC) | Portal overview | Landing repository for the mirrored K-CORE portal software collection |
+| [ncc-backend](https://github.com/NCDCbioinformatics/ncc-backend) | Backend platform | Django-based backend source structure for K-CORE portal services and clinico-omics workflows |
+| [ncc-frontend](https://github.com/NCDCbioinformatics/ncc-frontend) | Frontend visualization | React-based portal UI source structure for clinico-omics exploration and visual analytics |
+| [synthetic-data-set](https://github.com/NCDCbioinformatics/synthetic-data-set) | Demonstration data | Representative synthetic dataset package used for portal validation and demonstration |
 
 ## Focus Areas
 
