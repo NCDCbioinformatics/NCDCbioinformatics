@@ -36,9 +36,9 @@ Current public work includes:
 | [gene_fusion_normalizer](https://github.com/NCDCbioinformatics/gene_fusion_normalizer) | Fusion gene normalization utility |
 | [hgvs_normerlizer](https://github.com/NCDCbioinformatics/hgvs_normerlizer) | HGVS nomenclature normalization utility |
 
-## Related Platform Portfolio
+## K-CORE Portal Repositories
 
-The broader NCDC software portfolio also includes public K-CORE portal projects covering full-stack web services, visualization, and synthetic demonstration datasets.
+The broader NCDC public software ecosystem also includes separately maintained K-CORE portal repositories covering full-stack web services, visualization, and synthetic demonstration datasets.
 
 | Project | Area | Summary |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ The broader NCDC software portfolio also includes public K-CORE portal projects 
 | [ncc-frontend](https://github.com/K-CORE-NCDC/ncc-frontend) | Frontend visualization | React-based portal UI for clinico-omics exploration and precision oncology visual analytics |
 | [synthetic-data-set](https://github.com/K-CORE-NCDC/synthetic-data-set) | Demonstration data | Synthetic omics-oriented dataset package used for portal validation and demonstration |
 
-These linked K-CORE repositories remain in their original source profile and are referenced here to show adjacent NCDC platform work without modifying the original account.
+These K-CORE repositories remain in their original source profile and are referenced here without modifying the original `K-CORE-NCDC` account.
 
 ## Focus Areas
 
