@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/NCDCbioinformatics/cure-ngs-panel-harmonization-framework"><img alt="Umbrella Repository" src="https://img.shields.io/badge/Umbrella-CURE--NGS_Framework-0f766e.svg"></a>
+  <a href="https://github.com/NCDCbioinformatics/cure-ngs-panel-harmonization-framework/releases/tag/v0.2.3"><img alt="CURE-NGS release v0.2.3" src="https://img.shields.io/badge/CURE--NGS-v0.2.3-16a34a.svg"></a>
   <a href="https://www.cancerdata.re.kr/"><img alt="National Cancer Data Center" src="https://img.shields.io/badge/NCDC-National_Cancer_Data_Center-1d4ed8.svg"></a>
   <img alt="Location" src="https://img.shields.io/badge/Location-Goyang,_Republic_of_Korea-334155.svg">
 </p>
@@ -30,6 +31,21 @@
 | [gene_name_harmonization](https://github.com/NCDCbioinformatics/gene_name_harmonization) | Gene symbol harmonization utility |
 | [gene_fusion_normalizer](https://github.com/NCDCbioinformatics/gene_fusion_normalizer) | Fusion gene normalization utility |
 | [hgvs_normerlizer](https://github.com/NCDCbioinformatics/hgvs_normerlizer) | HGVS nomenclature normalization utility |
+
+#### Current supported distribution
+
+The publication-facing Docker/OCI distribution is
+[`CURE-NGS v0.2.3`](https://github.com/NCDCbioinformatics/cure-ngs-panel-harmonization-framework/releases/tag/v0.2.3).
+Both images are public and can be pulled without a GitHub login:
+
+```bash
+docker pull ghcr.io/ncdcbioinformatics/cure-ngs-harmonizer:0.2.3
+docker pull ghcr.io/ncdcbioinformatics/cure-ngs-harmonizer:0.2.3-core
+```
+
+- [First-time user tutorial](https://github.com/NCDCbioinformatics/cure-ngs-panel-harmonization-framework/blob/main/docs/BEGINNER_TUTORIAL.md)
+- [V1.3.3/manuscript workspace workflow](https://github.com/NCDCbioinformatics/cure-ngs-panel-harmonization-framework/blob/main/docs/V1.3.3_BATCH_WORKFLOW.md)
+- [Successful clean public-image validation](https://github.com/NCDCbioinformatics/cure-ngs-panel-harmonization-framework/actions/runs/33350796468)
 
 ### K-CORE Analysis Portal Development
 
